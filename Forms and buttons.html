@@ -1,0 +1,39 @@
+<html>
+				<head>
+								<title>Forms and Buttons </title>
+				</head>
+				<!-- This is a comment element  -->
+				<link rel="stylesheet" href="style.css">
+				<body>
+								<form>
+					<label for="fname">First Name:</label>
+					<input type ="text" id="fname" name="First Name" Placeholder="First Name" required>
+				<br><br>
+				
+				<label for="lname">Last Name:</label>
+				<input type ="text"		id="lname"	name="Last Name" Placeholder ="Last Name">
+				<br><br>
+				
+				<label for="email">Email Address:</label>
+				<input type ="email"		id="email"	name="Email Address" Placeholder ="Your Email Address">
+				<br><br>
+				
+			 <label for="psw">Password:</label>
+				<input type ="password"		id="psw"	name="Password" Placeholder ="digit, lower case, upper case, at least 8 characters" pattern ="(?=./d)(?=.[a-z])(?=.[A-Z]){8,}" title="must contain digit, lower case, upper case, at least 8 characters" required  >
+				<br><br>
+				<label for ="gender">Gender:</label>
+				<label for ="male">Male</label>
+				<input type ="radio" id="male" name ="male">
+				
+				
+				<label for="female">Female</label>
+				<input type ="radio" id="female" name ="female">
+				<br><br>
+				
+				<label for ="dob">Date of birth </label>
+				<input type ="date"	id="dob"	name ="dob">
+				<br><br>
+				<button type ="submit">Register </button>
+								</form>
+				</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+				background-image:url("uni.jpg");
+				background-repeat:no-repeat; 
+				background-size:cover;
+}
+#newform{
+				text-align:center;
+}
+h2, a{
+				color:Gold;
+}
+#newform{
+				background-color:Grey; 
+				padding: 20px;
+				margin:40px;
+				margin-top:10px;
+}
+button{
+				background-color:#15ffe0 ;
+				width:100px;
+				height: 50px;
+				font-size: 18px;
+} 
+::placeholder{
+				color:#15ffe0;
+				text-align:left;
+			  padding:3ft;	
+}
+
+	input {
+				text-align:center;
+				border:none;
+				background-color:rgba(0, 50, 30, 0.9) ;
+				border-bottom:2px solid white;
+				font size:20px;
+}
